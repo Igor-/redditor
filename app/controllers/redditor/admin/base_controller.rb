@@ -2,7 +2,7 @@
 
 class Redditor::Admin::BaseController < ActionController::Base
   layout false
-  before_filter :get_page
+  before_action :get_page
 
   private
 
